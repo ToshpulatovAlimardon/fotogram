@@ -23,3 +23,21 @@
   background-image: linear-gradient(to right, blue, green, orange, red, yellow);
   background-clip: text;
 }
+
+/* media Topbar */
+@media screen and (max-width: 500px) {
+  /* Topbar */
+  .topbar {
+    padding: 10px 0;
+  }
+
+  /* Topbar logo */
+  .topbar-logo img {
+    width: 50px;
+  }
+
+  .topbar-logo h1 {
+    font-size: 36px;
+    margin-left: 5px;
+  }
+}
