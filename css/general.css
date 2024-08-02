@@ -1,0 +1,25 @@
+/* Topbar */
+.topbar {
+  padding: 20px 0;
+  background-color: #000029;
+}
+
+/* Topbar logo */
+.topbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar-logo img {
+  width: 100px;
+}
+
+.topbar-logo h1 {
+  font-family: "Rubik Wet Paint", system-ui;
+  font-size: 56px;
+  margin-left: 10px;
+  color: transparent;
+  background-image: linear-gradient(to right, blue, green, orange, red, yellow);
+  background-clip: text;
+}
